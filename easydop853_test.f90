@@ -1,5 +1,5 @@
 
-    program dop_test
+    program easydop853_test
 
     use dop853_module
     use dop853_constants
@@ -19,6 +19,6 @@
     
     print *, x, y
 
-    end program dop_test
+    end program easydop853_test
 
 
