@@ -9,7 +9,7 @@ This implementation is a simplification of the implementation made by [Jacob Wil
 
 A much-easier-to-use subroutine interface has been created by the original easy-to-use class interface.
 
-DOP853 is an explicit Runge-Kutta method of order 8(5,3) due to Dormand & Prince (with stepsize control and dense output).
+DOP853 is an explicit Runge-Kutta method of order 8(5,3) due to Dormand & Prince.
 
 This project is hosted on [GitHub](https://github.com/GasinAn/easydop853).
 
