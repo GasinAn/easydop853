@@ -1,7 +1,4 @@
 # easydop853
-Simplified Modern Fortran Edition of the DOP853 ODE Solver
-
-
 
 This is a modern Fortran (2003/2008) implementation of Hairer's DOP853 ODE solver.
 
