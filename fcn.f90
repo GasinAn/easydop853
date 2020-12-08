@@ -1,7 +1,7 @@
 
     subroutine fcn(me,x,y,f)
 
-    !! subroutine computing the value of \(dy/dx = f(x,y)\)
+    !! subroutine computing the value of \(dy/dx=f(x,y)\)
 
     use dop853_module
     use dop853_constants
