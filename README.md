@@ -14,7 +14,7 @@ This project is hosted on [GitHub](https://github.com/GasinAn/easydop853).
 
 See [easydop853_test.f90](https://github.com/GasinAn/easydop853/blob/main/easydop853_test.f90).
 
-## References
+## Reference
 
 * [jacobwilliams/dop853](https://github.com/jacobwilliams/dop853)
 
