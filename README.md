@@ -21,5 +21,5 @@ See [easydop853_test.f90](https://github.com/GasinAn/easydop853/blob/main/easydo
 ## License
 
 * [LICENSE](https://github.com/GasinAn/easydop853/blob/main/LICENSE).
-* [Original license for Hairer's codes](http://www.unige.ch/~hairer/prog/licence.txt).
 * [Original license for Williams's codes](https://raw.githubusercontent.com/jacobwilliams/dop853/master/LICENSE).
+* [Original license for Hairer's codes](http://www.unige.ch/~hairer/prog/licence.txt).
