@@ -2,7 +2,7 @@
 
 This is a modern Fortran (2003/2008) implementation of Hairer's DOP853 ODE solver.
 
-This implementation is a simplification of the implementation made by [Jacob Williams (jacobwilliams)](https://github.com/jacobwilliams)
+This implementation is a simplification of the implementation made by [Jacob Williams (jacobwilliams)](https://github.com/jacobwilliams).
 
 A much-easier-to-use subroutine interface has been created by the original easy-to-use class interface.
 
@@ -16,7 +16,7 @@ See [easydop853_test.f90](https://github.com/GasinAn/easydop853/blob/main/easydo
 
 ## Reference
 
-* [jacobwilliams/dop853](https://github.com/jacobwilliams/dop853)
+* [jacobwilliams/dop853](https://github.com/jacobwilliams/dop853).
 
 ## License
 
