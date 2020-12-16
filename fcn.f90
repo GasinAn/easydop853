@@ -1,10 +1,10 @@
 
     subroutine fcn(me,x,y,f)
-
     !! subroutine computing the value of \(dy/dx=f(x,y)\)
 
-    use dop853_module
-    use dop853_constants
+    use iso_fortran_env,    only: wp => real64
+
+    use easydop853_module
     
     implicit none
 
