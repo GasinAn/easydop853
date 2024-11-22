@@ -59,15 +59,15 @@ module easydop853_module
         real(wp), dimension(:), intent(inout) :: y
         !! `y` value (input is initial value and output is final value)
 
-        integer, save :: nstiff = 1
+        integer, parameter :: nstiff = 1
         !! nstiff parameter for stiffness detection,
         !! which will occur at step 1*nstiff, 2*nstiff, 3*nstiff ... if nstiff>0
         !! and will not occur if nstiff<=0
-        integer, save :: nmax = 2250000
+        integer, parameter :: nmax = 2250000
         !! maximal number of allowed steps
-        real(wp), dimension(1), save :: rtol = 1.0e-12_wp
+        real(wp), dimension(1), parameter :: rtol = 1.0e-12_wp
         !! relative tolerance
-        real(wp), dimension(1), save :: atol = 1.0e-24_wp
+        real(wp), dimension(1), parameter :: atol = 1.0e-24_wp
         !! absolute tolerance
 
         type(dop853_class) :: prop
