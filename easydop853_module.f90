@@ -1,5 +1,5 @@
 !*****************************************************************************************
-!> author: GasinAn
+!> author: Jiachen An
 !
 !  Simplified Modern Fortran Edition of the DOP853 ODE Solver.
 !
@@ -8,7 +8,7 @@
 !        Simplified Modern Fortran Edition of the DOP853 ODE Solver
 !        https://github.com/GasinAn/easydop853
 !
-!        Copyright (c) 2020, GasinAn
+!        Copyright (c) 2020-2024, Jiachen An
 !        All rights reserved.
 !
 !        Redistribution and use in source and binary forms, with or without modification,
