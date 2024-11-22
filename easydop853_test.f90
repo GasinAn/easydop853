@@ -17,7 +17,7 @@ program easydop853_test
     !! `y` value (input is initial value and output is final value)
 
     call easydop853(fcn, x, xf, y)
-    
+
     print *, x
     print *, y
 

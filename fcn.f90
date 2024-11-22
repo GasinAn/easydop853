@@ -4,7 +4,7 @@ subroutine fcn(me, x, y, f)
     use iso_fortran_env, only: wp => real64
 
     use easydop853_module
-    
+
     implicit none
 
     class(dop853_class), intent(inout) :: me
