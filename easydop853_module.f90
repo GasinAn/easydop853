@@ -46,7 +46,7 @@ module easydop853_module
 
     contains
 
-    subroutine easydop853(fcn, x, xf, y)
+    subroutine easydop853(fcn, x, xend, y)
 
         implicit none
 
@@ -54,7 +54,7 @@ module easydop853_module
         !! subroutine computing the value of \(dy/dx=f(x,y)\)
         real(wp), intent(inout) :: x
         !! `x` value (input is initial value and output is final value)
-        real(wp), intent(in) :: xf
+        real(wp), intent(in) :: xend
         !! endpoint of integration (final value of `x`)
         real(wp), dimension(:), intent(inout) :: y
         !! `y` value (input is initial value and output is final value)
@@ -78,7 +78,7 @@ module easydop853_module
                              status_ok=status_ok)
         if (.not. status_ok) error stop 'initialization error'
 
-        call prop%integrate(x, y, xf, rtol, atol, iout=0, idid=idid)
+        call prop%integrate(x, y, xend, rtol, atol, iout=0, idid=idid)
         if (idid < 0) error stop 'integration failure'
 
     end subroutine easydop853
