@@ -17,6 +17,6 @@ subroutine fcn(me, x, y, f)
     !! derivative vector \(f(x,y)=dy/dx\)
 
     f(1:3) = y(4:6)
-    f(4:6) = -y(1:3) / sum(y(1:3)**2.0_wp)**1.5_wp
+    f(4:6) = -y(1:3) / sum(y(1:3)**2.0_wp)**(3.0_wp/2.0_wp)
 
 end subroutine fcn
