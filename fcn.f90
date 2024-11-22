@@ -9,9 +9,9 @@ subroutine fcn(me, x, y, f)
 
     class(dop853_class), intent(inout) :: me
     !! dop853_class object
-    real(wp), intent(in)               :: x
+    real(wp), intent(in) :: x
     !! independent variable \(x\)
-    real(wp), dimension(:), intent(in)  :: y
+    real(wp), dimension(:), intent(in) :: y
     !! state vector \(y(x)\)
     real(wp), dimension(:), intent(out) :: f
     !! derivative vector \(f(x,y)=dy/dx\)
